@@ -6,7 +6,7 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums)
     {
-        int i = !nums.empty();
+        int i = 1;
         
           for (int  it: nums)
           {
